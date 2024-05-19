@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fb-ins{
+    text-align: right;
+    color: hsl(345, 89%, 52%);
+    font-size: 18px;
+    margin-right: 1em;
+    padding-right: 2rem;
+}
+.hlo{
+    padding: 40px;
+}
+
+
+h2{
+    text-align: center;
+    color: #f2184f;
+    letter-spacing: 5px;
+    
+   
+    
+}
+.az{
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: 450;
+    letter-spacing: 1px;
+    text-align:justify;
+    
+}
+.containar{
+    padding: 30px;
+}
+.container1{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about-img .img1{
+    border-radius: 50%;
+    max-width: 335px;
+    border: #f2184f4f 5px solid;
+    
+}
+/* principal */
+.principal {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    
+}
+.principal img{
+    border-radius: 10%;
+}
+/* awards */
+.image{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+.image1{
+    border-radius: 20px;
+
+}
+.director{
+    padding: auto;
+}
+
+
+
+/* Positive Parenting */
+.imagescontainer{
+    padding: 50px;
+}
+
+ .imagescontainer img {
+    height: 260px;
+    width: 222px;
+    border-radius: 40px;
+    padding: 15px;
+    
+ }
+
+/* stage  */
+  .cont img{
+    height: 350px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20%;
+
+} 
+/* footer */
+ .footer{
+    background-color: #f2184f;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+ }
+ 
+ .footer{
+    height: 500px;
+    padding: 30px;
+    color: white;
+    
+    
+ }
+ .footer img{
+    width: 200px;
+    height: 80px;
+    
+ }
+ .footer ul li{
+    list-style: none;
+
+ }
+ .our{
+    
+    text-decoration: none;
+    color: aliceblue;
+    
+ } 
+
+
+
+ /* Sports */
+ .demo img{
+    height: auto;
+    width:280px;
+    border-radius: 30px;
+    padding: 20px;
+
+
+ }
+ .sports{
+    padding: 30px;
+ }
+
+ /* curriculum */
+ .C{
+    height: 1000px;
+    width: 100px;
+ }
+ .cur{
+    padding:30px;
+ }
+
+ /* excursor */
+ .excursion{
+    padding:30px;
+ }
+/* meeting */
+.meeting{
+    padding: 30px;
+}
+
+/* events */
+.events{
+    padding: 30px;
+}
+
+/* gallery */
+.gallery{
+    padding: 20px;
+}
+
+.main img{
+    padding: 30px;
+}
+
+.a-day{
+    padding: 30px;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+    padding-left:10px !important;
+    padding-right: 10px !important;
+ }
+
+.fb-ins{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+
+}
+
+/*  contact form */
+
+.form-container{
+    max-width: 600px;
+    margin-inline:auto;
+    /* text-align: center; */
+    border: 2px solid black;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+   
+   
+   padding: 0 20px;
+   
+    background-color: white;
+
+}
+.form-container h1{
+    padding: 2rem;
+
+}
+.input-form{
+    padding: 10px;
+    
+    
+}
+.form-container button{
+    background-color: blue;
+    color: white;
+    width: 300px;
+    padding: 10px;
+
+}
